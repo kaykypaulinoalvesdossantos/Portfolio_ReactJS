@@ -143,7 +143,7 @@ const Main = () => {
             <SocialIcons theme={click ? 'dark' : 'light'}/>
             <Center click={click}>
                 <YinYang onClick={() => handleClick()} width={click ? 120 : 200} height={click ? 120 : 200} fill='currentColor' />
-                <span>Click here</span>
+                <span>Clique aqui</span>
             </Center>
 
             <Contact target="_blank" to={{pathname:"mailto:kayky.paulinoalves@gmail.com"}}>
@@ -159,7 +159,7 @@ const Main = () => {
                     whileHover={{scale: 1.1}}
                     whileTap={{scale: 0.9}}
                 >
-                    Say hi..
+                    E-mail...
                 </motion.h2>
             </Contact>
             <BLOG to={"/blog"}>
@@ -191,7 +191,7 @@ const Main = () => {
                     whileHover={{scale: 1.1}}
                     whileTap={{scale: 0.9}}
                 >
-                        Work
+                        Projetos
                     </motion.h2>
             </WORK>
             <BottomBar>
@@ -208,7 +208,7 @@ const Main = () => {
                     whileHover={{scale: 1.1}}
                     whileTap={{scale: 0.9}}
                 >
-                    About
+                    Sobre
                     </motion.h2>
                 </ABOUT>
                 <SKILLS to={"/skills"}>
@@ -224,7 +224,7 @@ const Main = () => {
                     whileHover={{scale: 1.1}}
                     whileTap={{scale: 0.9}}
                 >
-                    My Skills
+                    Minhas habilidades
                     </motion.h2>
                 </SKILLS>
             </BottomBar>

@@ -94,10 +94,10 @@ const MySkillsPage = () => {
               <Design width={40} height={40} /> Designer
             </Title>
           <Description>
-              I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
+              Eu valorizo ​​negócios ou marcas para os quais estou criando, por isso gosto de dar vida a novas ideias.
           </Description>
           <Description>
-              <strong>I linke to Design</strong>
+              <strong>Eu gosto de projetar</strong>
               <ul>
                 <li>
                     Web Design
@@ -108,7 +108,7 @@ const MySkillsPage = () => {
               </ul>
           </Description>
           <Description>
-              <strong>Tools</strong>
+              <strong>Ferramentas</strong>
               <ul>
                 <li>
                     Figma
@@ -122,16 +122,16 @@ const MySkillsPage = () => {
               <Develope width={40} height={40} /> Frontend Developer
           </Title>
           <Description>
-              I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
+              Eu valorizo ​​negócios ou marcas para os quais estou criando, por isso gosto de dar vida a novas ideias.
           </Description>
           <Description>
-              <strong>Skills</strong>
+              <strong>Habilidades</strong>
               <p>
                 Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase etc.
               </p>
           </Description>
           <Description>
-              <strong>Tools</strong>
+              <strong>Ferramentas</strong>
               <p>VScode, Github, Codepen etc.</p>
           </Description>
           </Main>
