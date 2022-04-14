@@ -9,17 +9,26 @@ import AboutPage from "./components/AboutPage"
 import BlogPage from "./components/BlogPage"
 import WorkPage from "./components/WorkPage"
 import MySkillsPage from "./components/MySkillsPage"
+import { useLocation } from "react-router-dom"
+import { AnimatePresence } from "framer-motion"
+import SoundBar from "./subComponents/SoundBar"
 
 function App() {
+
+
+    const location = useLocation();
+
+
   return <>
-
-
 
     <GlobalStyle />
 
     <ThemeProvider theme={lightTheme}>
-    
-    <Switch>
+
+      <SoundBar/>
+
+    <AnimatePresence exitBeforeEnter>
+    <Switch location={location} key={location.pathname}>
       <Route exact path="/" component={Main}/>
       <Route exact path="/About" component={AboutPage}/>
       <Route exact path="/Blog" component={BlogPage}/>
@@ -27,6 +36,9 @@ function App() {
       <Route exact path="/skills" component={MySkillsPage}/>
     </Switch>
       
+
+    </AnimatePresence>
+    
     </ThemeProvider>
 
 
